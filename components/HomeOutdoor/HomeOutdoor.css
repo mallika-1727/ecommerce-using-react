@@ -1,0 +1,104 @@
+.home-outdoor{
+    display:flex;
+    margin:20px 40px;
+    background:#fff;
+    border:1px solid #DEE2E7;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+/* LEFT BANNER */
+
+.left-banner{
+    width:240x;
+    padding:30px;
+    background:#EAF7F3;
+    background-image:url("../../assets/home-outdoor-bg.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align:left;
+    
+}
+
+.left-banner h2{
+    margin:0;
+    font-size:30px;
+    line-height:38px;
+    font-weight:600;
+    color:#1C1C1C;
+}
+
+.left-banner button{
+    margin-top:20px;
+    width:120px;
+    height:40px;
+    background:#fff;
+    border:1px solid #DEE2E7;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:500;
+}
+
+/* PRODUCT GRID */
+
+.product-grid{
+    flex:1;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.grid-card{
+    height:170px;
+    padding:16px;
+    border-right:1px solid #E5E7EB;
+    border-bottom:1px solid #E5E7EB;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.grid-card:nth-child(4n){
+    border-right:none;
+}
+
+.grid-card h4{
+    margin:0;
+    font-size:15px;
+    font-weight:500;
+    color:#1C1C1C;
+    line-height:22px;
+    text-align:left;
+    white-space:nowrap;
+    overflow:hidden
+}
+
+.price{
+    margin-top:8px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    color:#8B96A5;
+    font-size:13px;
+    line-height:18px;
+}
+
+.grid-card img{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+    align-self:flex-end;
+}
+
+.grid-card img{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+}
+

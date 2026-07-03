@@ -1,0 +1,35 @@
+.category-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 40px;
+    background:#ffffff;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.left-links,
+.right-links{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.left-links a,
+.right-links a{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    text-decoration:none;
+    color:#1c1c1c;
+    font-size:14px;
+    font-weight:500;
+}
+
+.left-links a:hover,
+.right-links a:hover{
+    color:#0D6EFD;
+}
+
+.down-icon{
+    font-size:11px;
+}
